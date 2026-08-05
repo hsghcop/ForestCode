@@ -1,0 +1,33 @@
+[project]
+name = "forestcode"
+version = "1.0.0"
+description = "A terminal-first Coding Agent runtime focused on an explainable agent loop."
+readme = "README.md"
+requires-python = ">=3.13"
+license = "MIT"
+authors = [{ name = "hsghcop" }]
+keywords = ["coding-agent", "llm", "terminal", "cli", "ai"]
+dependencies = [
+  "rich>=13",
+  "pyfiglet>=1.0",
+  "prompt_toolkit>=3",
+  "pyyaml>=6.0.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/hsghcop/ForestCode"
+Source = "https://github.com/hsghcop/ForestCode"
+
+[project.scripts]
+forestcode = "forestcode.cli:main"
+
+[tool.uv]
+package = true
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
+[build-system]
+requires = ["uv_build>=0.10.2,<0.11.0"]
+build-backend = "uv_build"
