@@ -1,6 +1,6 @@
 # ForestCode
 
-[English](README_EN.md)
+[English](https://github.com/hsghcop/ForestCode/blob/main/README_EN.md)
 
 ForestCode 是一个用 Python 实现的终端 Coding Agent。它把语言模型、代码工具、会话记忆和终端交互组合成一个可以在真实代码仓库中工作的 Agent runtime。
 
